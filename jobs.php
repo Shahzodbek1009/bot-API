@@ -1,8 +1,7 @@
 <?php
-    define('API_KEY','1659529546:AAFx7LcdPWIF0lvgZhcMwjA0RA0uu-wY1GE');
-    $adminuser = "hhhhhhhhhhhhh10"; // admin user
-    defined("GROUP_CHAT_ID") ? null : define("GROUP_CHAT_ID", "-505286700");
-// ?url=https://shohzod21.000webhostapp.com/tmp/index.php
+    define('API_KEY','TOKEN_JOYI');
+    $adminuser = "admin_user"; // admin user
+    defined("GROUP_CHAT_ID") ? null : define("GROUP_CHAT_ID", "guruh_id_si");
     function del($nomi){
         array_map('unlink', glob("step/$nomi.*"));
     }
